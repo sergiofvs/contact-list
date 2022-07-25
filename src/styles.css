@@ -1,4 +1,5 @@
 @import './fonts.css';
+@import '~the-new-css-reset/css/reset.css';
 
 :root {
   --font-family: 'Inter Variable', sans-serif;
