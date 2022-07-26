@@ -3,8 +3,34 @@
 
 :root {
   --font-family: 'Inter Variable', sans-serif;
+  --spacer: 20px;
+  --color-primary: hsl(256, 56%, 40%);
+  --color-primary-light: hsl(240, 60%, 90%);
+  --color-light: hsl(240, 20%, 96%);
+  --color-gray-lightest: hsl(256, 12%, 86%);
+  --color-gray-lighter: hsl(256, 10%, 52%);
+  --color-gray: hsl(256, 12%, 28%);
+  --color-dark: hsl(256, 56%, 8%);
+  --color-positive: hsl(160, 56%, 40%);
+  --color-negative: hsl(350, 56%, 40%);
+  --gradient-primary: linear-gradient(218deg, var(--color-primary), hsl(200, 56%, 56%));
+  --border-radius: 8px;
+  --shadow-overlay: 0px 2px 24px hsla(254, 55%, 8%, 0.04),
+                    0px 2px 12px hsla(254, 55%, 8%, 0.08),
+                    0px 2px 4px hsla(254, 55%, 8%, 0.12);
 }
 
 body {
+  display: flex;
+  place-content: center;
   font-family: var(--font-family);
+  color: var(--color-gray);
+  background-color: var(--color-gray-lightest);
+}
+
+app-root {
+  max-width: 100%;
+  width: 360px;
+  height: 640px;
+  margin: 20px;
 }
