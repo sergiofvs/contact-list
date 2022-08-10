@@ -22,7 +22,8 @@
               "src/favicon.ico",
               "src/icon.svg",
               "src/apple-touch-icon.png",
-              "src/assets"
+              "src/assets",
+              "src/uploads"
             ],
             "styles": [
               "src/styles.css"

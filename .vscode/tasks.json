@@ -3,8 +3,10 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "start",
       "type": "npm",
       "script": "start",
+      "dependsOn": "start: mock API",
       "isBackground": true,
       "problemMatcher": {
         "owner": "typescript",
@@ -15,7 +17,26 @@
             "regexp": "(.*?)"
           },
           "endsPattern": {
-            "regexp": "bundle generation complete"
+            "regexp": "(.*?)"
+          }
+        }
+      }
+    },
+    {
+      "label": "start: mock API",
+      "type": "npm",
+      "script": "start:mock",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "typescript",
+        "pattern": "$tsc",
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": {
+            "regexp": "(.*?)"
+          },
+          "endsPattern": {
+            "regexp": "(.*?)"
           }
         }
       }
@@ -33,7 +54,7 @@
             "regexp": "(.*?)"
           },
           "endsPattern": {
-            "regexp": "bundle generation complete"
+            "regexp": "(.*?)"
           }
         }
       }

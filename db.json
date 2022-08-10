@@ -1,0 +1,58 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "fullname": "Ada L.",
+      "phone": [
+        {
+          "type": 0,
+          "number": 5511912345678
+        },
+        {
+          "type": 2,
+          "number": 551141234567
+        }
+      ],
+      "email": [
+        "ada@gmail.com"
+      ],
+      "birthday": {
+        "month": 12,
+        "day": 10
+      },
+      "picture": "ada-1g9bnn1ir0c7f6704d8985a.jpg"
+    },
+    {
+      "id": 2,
+      "fullname": "Uncle Bob",
+      "phone": [],
+      "email": [],
+      "birthday": {},
+      "picture": "uncle-1g9bnnfma02105230506d0c.jpg"
+    },
+    {
+      "id": 3,
+      "fullname": "Steve",
+      "phone": [],
+      "email": [],
+      "birthday": {},
+      "picture": ""
+    },
+    {
+      "id": 4,
+      "fullname": "Elon",
+      "phone": [],
+      "email": [],
+      "birthday": {},
+      "picture": ""
+    },
+    {
+      "id": 5,
+      "fullname": "Tim B.",
+      "phone": [],
+      "email": [],
+      "birthday": {},
+      "picture": ""
+    }
+  ]
+}
